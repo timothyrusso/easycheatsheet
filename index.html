@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>easy cheat sheet</title>
+</head>
+
+<body class="page">
+    <div class="content">
+        <header class="header"></header>
+        <main class="main">
+            <section class="site">
+                <ul class="blocks-grid"></ul>
+            </section>
+        </main>
+    </div>
+
+    <template id="block-template">
+        <li class="block">
+            <button aria-label="Delete" type="button" class="block__delete"></button>
+            <div class="block__content">
+                <h2 class="block__title"></h2>
+                <p class="block__description"></p>
+                <p class="block__example"></p>
+                <a href="" class="block__link"></a>
+                <button aria-label="Important" type="button" class="block__important"></button>
+            </div>
+        </li>
+    </template>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
