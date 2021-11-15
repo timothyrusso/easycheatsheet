@@ -9,7 +9,7 @@
   font-family: 'Ubuntu Mono';
   font-weight: 900;
   font-style: normal;
-  src: url(./fonts/Ubuntu_Mono/UbuntuMono-Bold.woff) format('woff');
+  src: url(./fonts/Ubuntu_Mono/UbuntuMono-Regular.woff) format('woff');
 }
 
 .content {
@@ -45,7 +45,7 @@
   max-width: 700px;
   min-height: 50px;
   background-color: rgb(238, 238, 238);
-  margin: 0 auto;
+  margin: 0 auto 30px;
   position: relative;
 }
 
@@ -84,11 +84,11 @@
 .block__example {
   margin: 0;
   font-family: 'Ubuntu Mono', Arial, sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   margin: 10px;
   padding: 10px 10px;
   color: #fff;
-  background-color: #000;
+  background-color: #002240;
   border-radius: 5px;
 }
 
